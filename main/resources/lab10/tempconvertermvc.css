@@ -1,0 +1,28 @@
+.root {
+    -fx-pref-width: 300;
+    -fx-pref-height: 150;
+    -fx-padding: 15px;
+}
+
+.text-field {
+    -fx-alignment: center;
+    -fx-pref-columns: 5;
+}
+
+VBox {
+    -fx-spacing: 10;
+}
+
+#topPane {
+    -fx-orientation: horizontal;
+    -fx-alignment: center;
+    -fx-hgap: 10;
+}
+
+#lblResult{
+    -fx-pref-height: 25;
+    -fx-pref-width: 75;
+    -fx-border-style: solid;
+    -fx-border-radius: 4;
+    -fx-alignment: center;
+}
